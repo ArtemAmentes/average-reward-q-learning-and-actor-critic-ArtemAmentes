@@ -1,0 +1,19 @@
+name: cds_rl
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.8
+  - pip
+  - numpy
+  - gym
+  - tensorboard
+  - tensorboardX
+  - matplotlib
+  - ipython
+  - moviepy
+  - pyvirtualdisplay
+  - pytorch
+  - torchvision
+  - ipdb
+  - box2d-py

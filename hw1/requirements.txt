@@ -1,0 +1,15 @@
+numpy
+gym
+gym[atari]
+tensorboard
+tensorboardX
+matplotlib
+ipython
+moviepy
+pyvirtualdisplay
+torch
+ipdb
+box2d-py
+
+# pip-only requirement
+opencv-python
