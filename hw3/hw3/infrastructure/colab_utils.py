@@ -1,4 +1,4 @@
-from gym.wrappers import Monitor
+from gym.wrappers.record_video import RecordVideo
 import glob
 import io
 import base64
@@ -22,5 +22,5 @@ def show_video():
 
 
 def wrap_env(env):
-  env = Monitor(env, '/content/video', force=True)
+  env = RecordVideo(env, '/content/video', episode_trigger=lambda episode_number: True)
   return env
